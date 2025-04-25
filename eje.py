@@ -11,11 +11,11 @@ fiber_length = float(input("Introduce la longitud de la fibra en km: "))
 f_min = 191.4e12  # Frecuencia mínima 
 f_max = 195.1e12  # Frecuencia máxima 
 spacing = 50e9    # Espaciado entre canales 
-roll_off = 0.15   # Roll-off del filtro
-tx_osnr = 40      # OSNR del transmisor (dB)
+roll_off = 0.17   # Roll-off del filtro
+tx_osnr = 35      # OSNR del transmisor (dB)
 tx_power = 6      # Potencia del transmisor (dBm)
 baud_rate = 32e9  # Tasa de baudios 
-delta_pdb = 0     # Delta de potencia (dB)
+delta_pdb = 1     # Delta de potencia (dB)
 slot_width = spacing  # Ancho de slot 
 
 # Crear el objeto SpectralInformation
