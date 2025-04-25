@@ -24,6 +24,7 @@ si.signal = si.signal.astype(np.float64)
 
 # Calcular número de canales
 num_channels = int(np.floor((f_max - f_min) / spacing))
+print(f"Frecuencia mínima: {f_min/1e12:.2f} THz")
 print(f"Número de canales: {num_channels}")
 
 # Mostrar potencia por canal en mW
